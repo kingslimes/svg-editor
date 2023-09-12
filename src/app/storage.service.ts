@@ -47,6 +47,7 @@ export class StorageService {
 
   load() {
     this.storedPaths = [];
+    /*
     const stored = localStorage.getItem('storedPaths');
     if (stored) {
       const parsed = JSON.parse(stored) as any[];
@@ -56,6 +57,7 @@ export class StorageService {
       });
       this.storedPaths = parsed;
     }
+    */
   }
 
   save() {
